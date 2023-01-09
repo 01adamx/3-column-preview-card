@@ -1,0 +1,231 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraph: hsla(0, 0%, 100%, 0.685);
+  --background: hsl(0, 0%, 95%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+body .attribution {
+  display: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+.sedans {
+  background-color: var(--orange);
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+.sedans img {
+  width: 50px;
+}
+
+.sedans h1 {
+  color: white;
+}
+
+.sedans p {
+  color: var(--paragraph);
+  margin-bottom: 90px;
+}
+
+.sedans button {
+  background-color: white;
+  border-style: none;
+  padding: 10px;
+  border-radius: 30px;
+  color: var(--orange);
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 120px;
+  position: absolute;
+  bottom: 35px;
+  cursor: pointer;
+}
+
+.suvs {
+  background-color: var(--dark-cyan);
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  position: relative;
+}
+
+.suvs img {
+  width: 50px;
+}
+
+.suvs h1 {
+  color: white;
+}
+
+.suvs p {
+  color: var(--paragraph);
+  margin-bottom: 90px;
+}
+
+.suvs button {
+  background-color: white;
+  border-style: none;
+  padding: 10px;
+  border-radius: 30px;
+  color: var(--dark-cyan);
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 120px;
+  -webkit-box-pack: bottom;
+      -ms-flex-pack: bottom;
+          justify-content: bottom;
+  position: absolute;
+  bottom: 35px;
+  cursor: pointer;
+}
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+
+.luxury img {
+  width: 50px;
+}
+
+.luxury h1 {
+  color: white;
+}
+
+.luxury p {
+  color: var(--paragraph);
+  margin-bottom: 90px;
+}
+
+.luxury button {
+  background-color: white;
+  border-style: none;
+  padding: 10px;
+  border-radius: 30px;
+  color: var(--very-dark-cyan);
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 120px;
+  -webkit-box-pack: bottom;
+      -ms-flex-pack: bottom;
+          justify-content: bottom;
+  position: absolute;
+  bottom: 35px;
+  cursor: pointer;
+}
+
+@media (max-width: 970px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 600px 0 50px 0;
+    min-width: 200px;
+    max-width: 500px;
+  }
+  .card .sedans {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    row-gap: 40px;
+  }
+  .card .luxury {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.sedan-button:hover {
+  background-color: var(--orange);
+  color: white;
+  border: 2px solid white;
+}
+
+.suv-button:hover {
+  background-color: var(--dark-cyan);
+  color: white;
+  border: 2px solid white;
+}
+
+.luxury-button:hover {
+  background-color: var(--very-dark-cyan);
+  color: white;
+  border: 2px solid white;
+}
+/*# sourceMappingURL=index.css.map */
