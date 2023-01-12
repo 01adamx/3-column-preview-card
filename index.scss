@@ -31,6 +31,12 @@ main {
     display: flex;
     width: 60%;
 }
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+p, button {
+    font-family: 'Lexend Deca', sans-serif;
+}
 .sedans {
     background-color: var(--orange);
     padding: 35px;
