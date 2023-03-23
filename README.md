@@ -26,7 +26,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+![Screenshot preview](./design/desktop-design.jpg)
 
 ### Links
 
@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Google](https://google.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Youtube](https://www.youtube.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Google](https://google.com)
+- [Youtube](https://www.youtube.com)
 
 
 ## Author

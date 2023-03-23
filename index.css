@@ -196,6 +196,9 @@ p, button {
 }
 
 @media (max-width: 970px) {
+  main {
+    margin-top: 100px;
+  }
   .card {
     display: -webkit-box;
     display: -ms-flexbox;
