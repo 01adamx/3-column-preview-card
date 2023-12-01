@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/adamx23x/3-column-preview-card]
-- Live Site URL: [https://adamx23x.github.io/3-column-preview-card/]
+- Solution URL: [https://github.com/01adamx/3-column-preview-card]
+- Live Site URL: [https://01adamx.github.io/3-column-preview-card/]
 ## My process
 
 ### Built with
