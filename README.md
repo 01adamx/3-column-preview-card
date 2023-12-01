@@ -32,7 +32,7 @@ Users should be able to:
 
 - Solution URL: [https://github.com/01adamx/3-column-preview-card]
 - Live Site URL: [https://01adamx.github.io/3-column-preview-card/]
-## My process
+## My process.
 
 ### Built with
 
